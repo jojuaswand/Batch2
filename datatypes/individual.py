@@ -109,8 +109,22 @@ y = 2
 # n = bool(-2)
 # print(n)
 #arithmetic operations True = 1 False = 0
-add = True + False #true => 1
-sub = True - False #true => 1
-mul = True * False #false => 0
-div = False / True #0.0
-print(add, sub, mul, div)
+# add = True + False #true => 1
+# sub = True - False #true => 1
+# mul = True * False #false => 0
+# div = False / True #0.0
+# print(add, sub, mul, div)
+
+x = 100
+y = 10
+
+print(x / y)
+print(x % y)
+print(x // y)
+print(abs(-5))
+print(abs(+5))
+
+print(y ** 100)
+print(y * y * y )
+print(y ** y ** y)
+
