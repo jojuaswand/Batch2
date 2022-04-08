@@ -54,5 +54,40 @@ x = str(x)
 # '',"",'''''',"""""", str()
 a = 'hello "hello" '  #the same boundaries cannot be used inside a string
 # print(a)
+a = "hello"
+# print(len(a)) #1-5 for hello
+#index
+index = len(a) - 1
+# print(index) #0 - 4 for hello forwards
+# 1  2  3  4  5 - length
+# 0  1  2  3  4 - forward index
+# -5 -4 -3 -2 -1- backward index
+a = "hello"
+# print(a[0]) #h using forward index
+# print(a[-5]) #h using backward index because length is 5 and we use negative value to get index in backwards
+# print(a[3]) #2nd l
+# print(a[2]) #1st l
+#slicing
+# print(a[0], a[1], a[2]) #h,e,l taking each of the characters
+# print(a[0:3]) #slicing start value : end value (required value + 1) because it is until end value and it wont consider the end value itself
 
+s = "hello world"
+# print(len(s))
+# print(s[0:5]) #slicing will be using index values
+# print(s[-1 : -6 : 1]) #step value by default is 1 meaning its moving forwards
+# print(s[-1 : -6 : -1]) #step value here is -1 which represents moving forwards
+# print(s[-5 : ])
+# print(s[:5])
+# print(s[5:])
+# print(s[:])  #index not given because it will consider empty values at the start and at the end
+# print(s[::-1])
+
+# s = "sea shells on the sea shore"
+# print(s[:3], s[4:10], s[-5 : ], s[-9 : -6])
+# print(s[:10], s[-9: ])
+# print(s[::-1]) #reversing a string using slicing
+
+s = "she sells sea shells on the sea shore"
+print(s[14:24])
+print(s[:3], s[-5 :])
 
