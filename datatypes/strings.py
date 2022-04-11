@@ -88,6 +88,17 @@ s = "hello world"
 # print(s[::-1]) #reversing a string using slicing
 
 s = "she sells sea shells on the sea shore"
-print(s[14:24])
-print(s[:3], s[-5 :])
+# print(s[14:24])
+# print(s[:3], s[-5 :])
+
+#replacing using index and replace method
+
+#memory allocations
+s = "hello"
+# print(id(s))
+# print(id(s[0]))
+# print(id(s[1]))
+# print(id(s[2]))
+# print(id(s[3]))
+# print(id(s[4]))
 
