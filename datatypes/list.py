@@ -212,3 +212,39 @@ l = ["hi", "apple", "cat", "zebra"]
 # print(b, id(b))
 # print(a[0], id(a[0]))
 # print(b[-1], id(b[-1]))
+
+#shallow copy we are copying the original list but not the elements, the elements will have same address
+# l = [1, 2, 4, 3]
+# l1 = l.copy()
+# print(l, id(l))
+# print(l1, id(l1))
+# print(l[0], id(l[0]))
+# print(l1[0], id(l[0]))
+# l[0] = 5
+# print(l, id(l))
+# print(l1, id(l1))
+# print(l[0], id(l[0]))
+# print(l1[0], id(l[0]))
+
+#deepcopy
+# from copy import deepcopy   #copy module from this module we import deepcopy function
+# l = [1, 2, 4, 3]
+# l1 = deepcopy(l)
+# # print(l, id(l))
+# # print(l1, id(l1))
+# # print(l[0], id(l[0]))
+# # print(l1[0], id(l[0]))
+# l[0] = 5
+# # print(l, id(l)) #the list address are different
+# # print(l1, id(l1))
+# print(l[0], id(l[0]))
+# print(l1[0], id(l1[0]))
+# print(l[1], id(l[1]))
+# print(l1[1], id(l1[1]))
+
+
+
+
+
+
+
