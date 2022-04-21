@@ -99,37 +99,69 @@ else:
 
 # question 1
 # check whether the given string is having alphabets only if yes print the string else reverse it
-# s = "she sells sea shells on the sea shore "
+# s = "shesellsseashellsontheseashore"
 # s = "she se1lls s@ea shells on the sea shore "
+# if s.isalpha():
+#     print("yes")
+# else:
+#     print(s[::-1])
+
 
 
 #question 2
-# check whether the given question is even or odd
+# check whether the given number is even or odd
 # n = 111
 # n = 1110
+# if n %2 == 0:
+#     print("even")
+# else:
+#     print("odd")
 
 #question 3
 #check if entered character is vowel or not
 # c = "e"
 # c = "u"
 # c = "t"
+# if c in "aeiouAEIOU":
+#     print("it is vowel")
+# else:
+#     print("not a vowel")
+
+
+
 
 #question 4
 #check whether the given string starts with a vowel or not
 # s = "a is apple"
 # s = "hello world"
+# if s[0] in "aeiouAEIOU":
+#     print("starts with vowel")
+# else:
+#     print("not starting with vowel")
+
+
 
 #question 5
 #check whether a number is starting with even or not and also ending with even or not
 # n = 12345667
 # n = 84667965
+# n = 1456
+# if int(str(n)[0]) % 2 == 0:
+#     print("even at start")
+#     if int(str(n)[-1]) % 2 == 0:
+#         print("even at end")
+#     else:
+#         print("odd at end")
+# elif int(str(n)[-1]) % 2 == 0:
+#     print("even at end")
+#     print("odd at start")
+# else:
+#     print("odd at both position")
 
-
-
-
-
-
-
+# if int(str(n)[0]) % 2 == 0 and int(str(n)[-1]) % 2 == 0:
+#         print("even at starting and ending")
+# else:
+#     print(" starting and ending odd")
 
 
 
