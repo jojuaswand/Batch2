@@ -41,4 +41,22 @@ not_vowels = []
 #         print(j)
 #
 
+#question 1
+# print("python is easy") 10 times
+
+#question 2
+#iterate through a string using range
+#s = "hello world"
+
+#question 3
+#print alternate characters of string
+#s = "hello world Bye world"
+
+#question 4
+# l= [1, 2, 3, 4, 5, 6]
+# if it is odd power it else multiply it with 10
+
+#question 5
+# s = "hhhhelllo worldd bye thanks"
+# count the number of character occurance and insert into a diction with character and its count
 
