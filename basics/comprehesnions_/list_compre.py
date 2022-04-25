@@ -49,4 +49,33 @@ l1 = []
 # l2 = list(enumerate(l)) #it returns index value along with values in the form of tuples
 # print(l2)
 
+l = ["hello", "hi", "malayalam", "mom", "elephants", "item", "good"]
+l1 = []
+# for i in l:
+#     if len(i) % 2 == 0:
+#         l1.append(i)
+#     else:
+#         l1.append(i[:: -1])
+# l1 = [i if len(i) % 2 == 0 else i[::-1] for i in l]
+# l1 = [i[::-1] if len(i) % 2 == 1 else i for i in l]
+# print(l1)
 
+
+# question 1
+# check even or odd in the range of 1 - 50 if it is even multiply by two or else power it and store these inside a new list
+
+# question 2
+# l = ["python", "hello", "people", 1, "hi", "person", 2, "last", "personality"]
+# if the string starts with p append it to a new list
+
+# question 3
+# l = ["python", "hello", "people", 1, "hi", "person", 2, "last", "personality"]
+# in a new list append the elements with their index values
+
+# question 4
+# l = ["apple", "google", "yahoo", "gmail", "elephant"]
+# append the names starting with vowels into new list
+
+# question 5
+# l = ["apple", "google", "yahoo", "gmail", "elephant"]
+# create a new list with all the words starting with consonants reversed and words starting with vowels as same
