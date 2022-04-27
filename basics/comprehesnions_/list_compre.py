@@ -85,6 +85,8 @@ for i in l:
         if i[0] in "pP":
             l1.append(i)
 # print(l1)
+c = [i for i in l if isinstance(i, str) if i[0] in "pP"]
+print(c)
 
 # question 3
 l = ["python", "hello", "people", 1, "hi", "person", 2, "last", "personality"]
